@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hola</title>
+    <link rel="stylesheet" href="TableStyle.css">
+</head>
+<body>
+    <h3>Tabla original</h3>
+    <table>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+    </table>
+
+    <h3>RowSpan</h3>
+    <table>
+        <tr>
+            <td rowspan="2">A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>C</td>
+        </tr>
+    </table>
+
+    <h3>ColSpan</h3>
+    <table>
+        <tr>
+            <td colspan="2">A</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+    </table>
+
+    <h3>Cuanto crece y en que direccion</h3>
+    <p>una celda puede crecer de igual tamanio de la cantidad de celdas quetiene al costado como referencia para contar</p>
+    <ul>
+        <li> uso rowspan crece siempre para abajo</li>
+        <li>uso colspan crece siempre para la derecha</li>
+    </ul>
+    <table>
+        <tr>
+            <td rowspan="100">A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+    </table>
+
+    <h3>Ejercicio con el profesor</h3>
+    <table>
+        <tr>
+            <td colspan="3">A</td>
+            <td>B</td>
+            
+        </tr>
+        <tr>
+            <td>D</td>
+            <td colspan="3">E</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2">H</td>
+            <td>I</td>
+            <td>J</td>
+            <td rowspan="2">K</td>
+        </tr>
+        <tr>
+            <td>L</td>
+            <td>M</td>
+            
+            
+        </tr>
+    </table>
+
+
+</body>
+</html>
